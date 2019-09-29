@@ -1,0 +1,28 @@
+.weather {
+    position: relative;
+    height: 550px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("weatherpage.png");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  .weather h1 {
+    margin-top: 200px;
+    font-size: 0.1rem;
+    animation: title 1.2s forwards linear;
+  }
+  
+  .weather p {
+    font-size: 2rem;
+    opacity: 0;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+  
