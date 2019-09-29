@@ -6,7 +6,7 @@ Dan Smart, Abiel Ogbe, Gabe Hernandez, Brandon Coleman, Suresh Sreerameneni, and
 
 -Used BigQuery from Google Cloud Services to create a query to merge data on station ID(MBAN).
 
--Used name, state, lat, lon, year, mo, da, temp, max, min, rain_drizzle, snow_ice_pellets, hail, thunder, tornado_funnel_cloud. All other columns were dropeed.
+-Used name, state, lat, lon, year, mo, da, temp, max, min, rain_drizzle, snow_ice_pellets, hail, thunder, tornado_funnel_cloud. All other columns were dropped.
 
 -Only used 'CA', 'MO', 'NY', 'TX', 'FL', 'PA', 'IL', 'OH', 'GA', 'GA', 'NC', and 'MI' to limit the size of the data set to under 1 GB.
 
