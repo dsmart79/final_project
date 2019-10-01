@@ -15,9 +15,13 @@ Dan Smart, Abiel Ogbe, Gabe Hernandez, Brandon Coleman, Suresh Sreerameneni, and
 ## Backend
 -SQLite for backend storage.
 
+-Machine learning will be limited to Missouri to narrow the scope.
+
 -Linear regression for temperature and classification for rain, snow, hail, thunder, and tornado.
 
 ## Frontend
 -Created a webpage using HTML, CSS, and JavaScript
 
 -Integrated Tableau into the webpage for data story and vizualizations.
+
+-Machine learning interface will be used in partnership with Missouri specific Tableau map.
