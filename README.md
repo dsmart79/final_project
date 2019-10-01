@@ -19,6 +19,16 @@ Dan Smart, Abiel Ogbe, Gabe Hernandez, Brandon Coleman, Suresh Sreerameneni, and
 
 -Linear regression for temperature and classification for rain, snow, hail, thunder, and tornado.
 
+multivariate linear regression -
+predict temperature based on the previous weather data from station the user selects
+
+classification 
+prediction rain or no rain based on previous weather data for the day the app is used. 
+
+
+
+
+
 ## Frontend
 -Created a webpage using HTML, CSS, and JavaScript
 
