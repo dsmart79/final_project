@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Missouri Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="weather">
+                <h1>The Weather is Unprecitable....Or is it?</h1>
+                <p>Team: Dan, Suresh, Gabriel, Sasi, Brandon and Abiel</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="weathercard">
+                <h1>Weather Forecast</h1>
+                <h3>Location</h3>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4">
+            <h3>Enter your weather data!</h3>
+            <form method="POST" action="/send" role="form" , name="petform">
+                <div class="form-group">
+                    <label for="inputName">Day</label>
+                    <input type="text" class="form-control" id="day" name="day1" placeholder="15">
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Month</label>
+                    <input type="text" class="form-control" id="month" name="month1" placeholder="4">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputType">Lat</label>
+                    <input type="text" class="form-control" id="Lat" name="Lat1" placeholder="-39.7">
+                </div>
+                <div class="form-group">
+                    <label for="inputAge">Long</label>
+                    <input type="text" class="form-control" id="Long" name="Long1" placeholder="90">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputAge">Station</label>
+                    <input type="text" class="form-control" id="Station" name="Station1" placeholder="SPIRIT OF ST LOUIS AIRPORT">
+                </div>
+                <input type="submit" value="submit" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-8">
+            <h3>3 Day Forecast</h3>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="../static/js/logic.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.weather {
+    position: relative;
+    height: 550px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("weatherpage.png");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    font-family: fantasy;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.weather h1 {
+    margin-top: 200px;
+    animation: title 1.2s forwards linear;
+    font-size: 100px;
+    font-weight: bolder;
+    opacity: 100;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+    color: #2b0ed3;
+    font-family: cursive;
+}
+
+.weather h2 {
+    animation: title 1.2s forwards linear;
+    font-size: 50px;
+    font-weight: bolder;
+    opacity: 100;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+    color: #ac11a4;
+    font-family: cursive;
+}
+
+.weather p {
+    font-size: 50px;
+    font-weight: bolder;
+    opacity: 100;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+    color: #ccffff;
+    font-family: cursive;
+}
+
+body {
+    background-color: #efeef1;
+    ;
+}
+
+#predictions_list li {
+    font-family: cursive;
+}

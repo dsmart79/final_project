@@ -1,0 +1,45 @@
+.weather {
+    position: relative;
+    height: 400px;
+    padding: 20px;
+    margin: 0;
+    background: black;
+    background-image: url("weatherpage.png");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.weather h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    animation: title 1.2s forwards linear;
+    color: yellow;
+    text-align: center;
+}
+
+.weather p {
+    font-size: 50px;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+    color: pink;
+}
+
+.weathercard h1 {
+    color: blue;
+    height: 600px;
+    width: 75%;
+    background-image: url("../../templates/missouri-ozark-mountains-hillside-sunrise.jpg");
+}
+
+body {
+    background-color: lightblue;
+}
+
+.w3-third li {
+    text-align: left;
+}
+
+.tableauPlaceholder {
+    height: 600px;
+}
